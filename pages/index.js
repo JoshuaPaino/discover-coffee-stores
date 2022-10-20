@@ -5,7 +5,6 @@ import styles from '../styles/Home.module.css';
 import Banner from '../components/banner';
 import Card from '../components/card';
 // 
-import coffeeStoresData from '../data/coffee-stores.json'
 import { fetchCoffeeStore } from '../lib/coffee-store';
 
 export async function getStaticProps(context) {
